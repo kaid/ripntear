@@ -14,14 +14,14 @@
 ;; https://github.com/radian-software/straight.el#the-recipe-format
 ;(package! another-package
 ;  :recipe (:host github :repo "username/repo"))
-(package! idris2-mode
-  :recipe (:host github :repo "idris-community/idris2-mode"))
+;; (package! idris2-mode
+;;   :recipe (:host github :repo "idris-community/idris2-mode"))
 
 (package! copilot
   :recipe (:host github :repo "zerolfx/copilot.el" :files ("*.el" "dist")))
 
-(package! kbd-mode
-  :recipe (:host github :repo "kmonad/kbd-mode"))
+;; (package! kbd-mode
+;;   :recipe (:host github :repo "kmonad/kbd-mode"))
 
 (package! dap-mode)
 (package! lsp-ui)
