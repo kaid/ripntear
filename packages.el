@@ -23,6 +23,9 @@
 ;; (package! kbd-mode
 ;;   :recipe (:host github :repo "kmonad/kbd-mode"))
 
+;; TODO: temporarily fix nim-mode, should remove the pin after doom emacs pumping the version.
+(package! nim-mode :pin "674ecd1ebfe23cb13791edbf5c79e3bec25dbdc5")
+
 (package! dap-mode)
 (package! lsp-ui)
 (package! mix)
